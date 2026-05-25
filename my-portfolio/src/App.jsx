@@ -4,14 +4,14 @@ import SpongeBobGame from './pages/SpongeBobGame.jsx';
 import AiHorrorStory from './pages/AiHorrorStory.jsx';
 import Contact from './pages/Contact.jsx';
 import Sudoku from './pages/Sudoku.jsx';
-import { HashRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 
 export default function App() {
   
   return (
     <>
-    <HashRouter>
+    <Router>
       <Header />
       <Routes>
         <Route path="/" element={<AboutMe />} />
@@ -21,7 +21,7 @@ export default function App() {
         <Route path="/ai-horror-story" element={<AiHorrorStory />} />
         <Route path="/contact" element={<Contact />} />       
       </Routes>
-    </HashRouter>
+    </Router>
     
     </>
   )
@@ -47,19 +47,24 @@ export default function App() {
         <h1 className="page-header-text">About Me</h1>
         <div className="row">
           <div className="col">
-          <img className="profile-picture" src={`${import.meta.env.BASE_URL}images/profilepicture.png`} alt="Profile"/> 
+          <img className = "profile-picture" src="/images/ProfPic.jpg"/> 
           </div>
        
           <div className="col">
-          <div className="about-me-card">
+          <card className="about-me-card">
           <p className="body-text">
             Hi! My name is Caitlyn Jones and I am an aspiring Game and Web Developer!
-            I am a senior at Brandeis University studying Computer Science and Applied Math. I have experience in
-            Java, Python, HTML, C++, R, Processing, and JavaScript. I am passionate about learning new programming languages and technologies,
+            I just recently graduated from Brandeis University with a BS in Computer Science and Applied Math. 
+            I have experience in Java, Python, HTML, CSS, R, Processing, and JavaScript and am currently in the process
+            of learning C++ to create a game in Unity. 
+          </p>
+          <p className="body-text">
+            I created this portfolio to show off my Frontend skills along with three web games
+            I have made from class and personal interest. I am passionate about learning new programming languages and technologies,
             and I am always looking for new challenges to tackle. I am excited to continue my journey in the world of game and
             web development, and I am eager to see where my skills will take me in the future!
           </p>
-          </div>
+          </card>
           </div>
         </div>
       </div>
