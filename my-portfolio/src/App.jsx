@@ -4,7 +4,7 @@ import SpongeBobGame from './pages/SpongeBobGame.jsx';
 import AiHorrorStory from './pages/AiHorrorStory.jsx';
 import Contact from './pages/Contact.jsx';
 import Sudoku from './pages/Sudoku.jsx';
-import { Router as HashRouter, Routes, Route, Link } from "react-router-dom";
+import { HashRouter, Routes, Route, Link } from "react-router-dom";
 
 
 export default function App() {
@@ -47,7 +47,7 @@ export default function App() {
         <h1 className="page-header-text">About Me</h1>
         <div className="row">
           <div className="col">
-            <img className="profile-picture" src={`${import.meta.env.BASE_URL}images/ProfPic.png`} alt="Profile"/> 
+            <img className="profile-picture" src={`${import.meta.env.BASE_URL}images/ProfPic.jpg`} alt="Profile"/> 
           </div>
        
           <div className="col">
