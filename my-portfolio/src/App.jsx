@@ -14,13 +14,12 @@ export default function App() {
     <HashRouter>
       <Header />
       <Routes>
-        <Route index element={<AboutMe />} />
+        <Route path="/" element={<AboutMe />} />
         <Route path="/resume" element={<Resume />} />
         <Route path="/spongebob-game" element={<SpongeBobGame />} />
         <Route path="/sudoku" element={<Sudoku />} />
         <Route path="/ai-horror-story" element={<AiHorrorStory />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="*" element={<AboutMe />} />
+        <Route path="/contact" element={<Contact />} />  
       </Routes>
     </HashRouter>
     
