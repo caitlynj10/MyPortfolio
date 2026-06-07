@@ -2,7 +2,7 @@
   "name": "my-portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://caitlynj10.github.io/MyPortfolio",
+  "homepage": "https://caitlynj10.github.io/MyPortfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
