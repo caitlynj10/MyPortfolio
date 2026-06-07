@@ -1,2 +1,2 @@
 # Portfolio
-# run npm run build before pushing changes to github
+# run npm run deploy before pushing changes to github
