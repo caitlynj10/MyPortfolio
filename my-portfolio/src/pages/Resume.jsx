@@ -72,7 +72,7 @@ export default function Resume() {
                 <hr />
                 <p className="resume-text">
                     <p className="resume-text"><b>Programming Languages:</b> Java, JavaScript, Python, HTML, CSS, R, Processing</p>
-                    <p className="resume-text"><b>Frameworks and Tools:</b> GitHub, React, Matplotlib, RStudio, Spyder</p>
+                    <p className="resume-text"><b>Platforms and Software:</b> GitHub, React, Twine, RStudio, Spyder</p>
                     <p className="resume-text"><b>Productivity:</b> Microsoft Office Suite, Google Suite</p>
                 </p>
 
